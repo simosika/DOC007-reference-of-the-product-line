@@ -1,4 +1,4 @@
-# How to establish your own Corolla production line
+# How to establish your own Focus production line
 
 We start by creating necessary services to help us manage passwords and other project information. In this case I use gigapossu@gmail.com as example account to help you get through various phases of service creation.
 
