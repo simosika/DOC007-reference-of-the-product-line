@@ -11,7 +11,9 @@ We start by creating necessary services to help us manage passwords and other pr
 - [Managing the code](#managing-the-code)
 - [Continuous Integration and Deployment](#continuous-integration-and-deployment)
 - [Feedback](#feedback)
-- [Mockups](#mockups)
+- [Mockups](#mockups)  
+  -[NinjaMock](#ninjamock)  
+  -[Fluid UI](#fluid-ui)
 - [Platform for App Deployment](#platform-for-app-deployment)
 
 ## Password management
@@ -137,6 +139,8 @@ Choosing a user feedback system is a bit more complicated issue. We used UserVoi
 
 ## Mockups
 
+### NinjaMock
+
 ![NinjaMock front page](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-11-13%2011:09:28.png)
 
 ![NinjaMock project selection](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-11-13%2011:10:07.png)
@@ -158,6 +162,8 @@ In this example we created a very simple point of interaction, a big red button 
 The easiest way to do what we're about to do here is to select the button and its texts in their entirety and copy them to page 2, but you might want to remove clickable area from your button before copying. Try to set the button on page 2 into same place where it is on your page 1 by following height and vertical movement indicators. After you've done this you can add the clickable area again to page 1 and link it to page 2. 
 
 Change the texts on page 2 so you can clearly see that the page changes when you click on the link you have created. Now you can preview your page from preview button on upper right corner and see if your mockup works as it should. It is good to know that if you just link the circle to next page, you may notice that clicking the text area does nothing. This can be fixed by clicking the text areas and adding a page link to them too. 
+
+### Fluid UI
 
 ![Fluid UI account creation](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-07%2013:34:03.png)
 
