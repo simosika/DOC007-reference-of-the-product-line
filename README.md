@@ -145,7 +145,7 @@ Choosing a user feedback system is a bit more complicated issue. We used UserVoi
 
 ![NinjaMock create account](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-11-13%2011:13:44.png)
 
-For designing our first piece of software we can use a wide variety of tools. First up, in this guide we introduce NinjaMock. We start up by clicking “start designing now” on the front page, choosing our platform, in this case preferrably www, and then we are already on the design interface. At this point we'd probably want to create and account from the top right corner to maintain our progress. After creating an account you create a new project and again, choose your platform of choice and you're back in program user interface, this time logged in with your account. 
+For designing our first piece of software we can use a wide variety of tools. We've introduced two tools here you can choose from. Just look at the pictures to get a good look at how their UI works and make your decision. Of course nothing prevents you from making a mockup with both tools and then choosing the one that better suits your style. First up, in this guide we introduce NinjaMock. We start up by clicking “start designing now” on the front page, choosing our platform, in this case preferrably www, and then we are already on the design interface. At this point we'd probably want to create and account from the top right corner to maintain our progress. After creating an account you create a new project and again, choose your platform of choice and you're back in program user interface, this time logged in with your account. 
 
 ![Big red button original](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-11-13%2012:29:08.png)
 
@@ -153,7 +153,29 @@ For designing our first piece of software we can use a wide variety of tools. Fi
 
 ![NinjaMock page linking](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-11-13%2012:53:15.png)
 
-In this example we created a very simple point of interaction, a big red button you can press. First we take two circles from shapes, one larger than the other, the same height and width per circle. Then we set them on top of each other, set colours from fill brush via menu. You can add labels via basic menu on the left, and make your object clickable by adding a click spot. After that create a new page from the bottom of the page by pressing “add portrait page” button. The easiest way to do what we're about to do here is to select the button and its texts in their entirety and copy them to page 2, but you might want to remove clickable area from your button before copying. Try to set the button on page 2 into same place where it is on your page 1 by following height and vertical movement indicators. After you've done this you can add the clickable area again to page 1 and link it to page 2. Change the texts on page 2 so you can clearly see that the page changes when you click on the link you have created. Now you can preview your page from preview button on upper right corner and see if your mockup works as it should.
+In this example we created a very simple point of interaction, a big red button you can press. First we take two circles from shapes, one larger than the other, the same height and width per circle. Then we set them on top of each other, set colours from fill brush via menu. You can add labels via basic menu on the left, and make your object clickable by adding a click spot. After that create a new page from the bottom of the page by pressing “add portrait page” button. 
+
+The easiest way to do what we're about to do here is to select the button and its texts in their entirety and copy them to page 2, but you might want to remove clickable area from your button before copying. Try to set the button on page 2 into same place where it is on your page 1 by following height and vertical movement indicators. After you've done this you can add the clickable area again to page 1 and link it to page 2. 
+
+Change the texts on page 2 so you can clearly see that the page changes when you click on the link you have created. Now you can preview your page from preview button on upper right corner and see if your mockup works as it should. It is good to know that if you just link the circle to next page, you may notice that clicking the text area does nothing. This can be fixed by clicking the text areas and adding a page link to them too. 
+
+![Fluid UI account creation](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-07%2013:34:03.png)
+
+Another good alternative for making mockups is Fluid UI. In this case we've created exactly the same mockup as in NinjaMock, so there's no need for doing this again if you've already designed your prototype in NinjaMock, and this is just an alternative method. We just wanted to introduce you two different types of software for doing mockups because the approach to creating mockups is a bit different between NinjaMock and Fluid UI. 
+
+![Fluid UI interface](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-07%2013:39:10.png)
+
+The process of creating our simple big red button is pretty straightforward here. You just choose and drag circle from Icons menu and resize it to your liking. Then by clicking the shape you get a menu where you can change its color and other options. Then use the visual cues to center your shape on the screen and align two circles on top of each other so that the one that is below is gray and the one on top is red. Using other colours is not strictly forbidden if you'd rather experiment with other colours. Then we'll continue by adding textboxes from Text menu. I chose medium size for the upper text and large for one at the bottom. You may edit and change colours for these boxes by clicking them and accessing the menu. After you're satisfied with your results you may continue by cloning the page and create another page where you'll get when you've linked your two pages. 
+
+![Tips for user](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-07%2013:54:29.png)
+
+![Fluid UI linking](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-07%2013:58:03.png)
+
+![Linking process](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-07%2013:58:31.png)
+
+You'll likely get useful tips while creating your wireframe, so remember to access them, for there's a good chance they'll make your work easier. In Fluid UI you link objects, or widgets simply by clicking the widget and then “Link”. Then you'll have the option to choose where your widget of choice leads. Then preview your mockup to see if it works just as it should. As in NinjaMock, here you should also link your textboxes to next page to prevent them from being unclickable objects on your circle.
+
+
 
 ## Platform for App Deployment
 
