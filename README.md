@@ -204,11 +204,11 @@ Choosing a user feedback system is a bit more complicated issue. We used UserVoi
 
 ![Doorbell.io front page](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-08%2012:07:00.png)
 
+One simple option we tried was Doorbell.io, se we decided to add it to this guide. In all its simplicity, create an account, create a new application by pressing “+” -button next to your user account in the upper right corner of the site and name your application. Then you'll be given a piece of JavaScript code that you can add to your application that you want feedback from. The feedback you'll receive will be added to your Doorbell.io account. In our case the best option will be of course to add this piece of code to GitHub repository in our application, and then deploy it with CircleCI to Heroku. After that you can get feedback from your application.
+
 ![Doorbell.io application added](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-08%2013:38:02.png)
 
 ![Doorbell.io feedback](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-08%2013:35:05.png)
-
-One simple option we tried was Doorbell.io, se we decided to add it to this guide. In all its simplicity, create an account, create a new application by pressing “+” -button next to your user account in the upper right corner of the site and name your application. Then you'll be given a piece of JavaScript code that you can add to your application that you want feedback from. The feedback you'll receive will be added to your Doorbell.io account. In our case the best option will be of course to add this piece of code to GitHub repository in our application, and then deploy it with CircleCI to Heroku. After that you can get feedback from your application.
 
 ![Application deployed to Heroku with feedback](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-08%2013:19:21.png)
 
