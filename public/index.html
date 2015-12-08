@@ -11,11 +11,17 @@
 <body>
     <div style="text-align:center;">
         <h1>Press this button!</h1>
-        <button
-            onClick="changeImage();"
-            style="padding:0;border:none;background:none;outline:none;">
+        <button onClick="changeImage();" style="padding:0;border:none;background:none;outline:none;">
             <img id="image" src="button1.png" alt="Button" />
         </button>
     </div>
+    <script type="text/javascript">
+        window.doorbellOptions = {
+            appKey: 'jNTvZmNLbnbccKLxgTlFa4oe2VIslhlyK1A6nMHnLSm3b3876svF0vxz5HOR4zwA'
+        };
+        (function(d, t) {
+            var g = d.createElement(t);g.id = 'doorbellScript';g.type = 'text/javascript';g.async = true;g.src = 'https://embed.doorbell.io/button/2722?t='+(new Date().getTime());(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(g);
+        }(document, 'script'));
+    </script>
 </body>
 </html>
