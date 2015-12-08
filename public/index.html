@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function changeImage() {
+            var img = document.getElementById("image");
+            img.src="button2.png";
+        }
+    </script>
+</head>
+<body>
+    <div style="text-align:center;">
+        <h1>Press this button!</h1>
+        <button
+            onClick="changeImage();"
+            style="padding:0;border:none;background:none;outline:none;">
+            <img id="image" src="button1.png" alt="Button" />
+        </button>
+    </div>
+</body>
+</html>
