@@ -8,13 +8,13 @@ We start by creating necessary services to help us manage passwords and other pr
 - [Work organization](#work-organization)
 - [Diagrams](#diagrams)
 - [Tool integrations](#tool-integrations)
-- [Managing the code](#managing-the-code)
-- [Continuous Integration and Deployment](#continuous-integration-and-deployment)
-- [Feedback](#feedback)
 - [Mockups](#mockups)  
   -[NinjaMock](#ninjamock)  
   -[Fluid UI](#fluid-ui)
+- [Managing the code](#managing-the-code)
+- [Continuous Integration and Deployment](#continuous-integration-and-deployment)
 - [Platform for App Deployment](#platform-for-app-deployment)
+- [Feedback](#feedback)
 
 ## Password management
 
@@ -115,30 +115,6 @@ Here's a quickly made example wannabe-topology that is ugly and crude and has no
 
 Zapier is a tool that can be used for many purposes. Most commonly, it is used to create integrations between services that do not have native support in themselves to be integrated. Of course, integrations done with Zapier are not as well-executed as official implementations, but in some cases if you simply want some of your tools to transmit data into another the Zapier is the way to go. In our use case we have at some point of our project used Zapier for transferring our UserVoice tickets to our GitHub issues.
 
-## Managing the code
-
-![Join GitHub](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-11-27%2013:37:16.png)
-
-![Choose GitHub plan](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-11-27%2013:38:20.png)
-
-GitHub is a very important tool for managing your code and making it easily accessible to use in various environments. Create your account by clicking “sign up” and provide the account with your user information. In this case I'm using N4S project repositories that have been created earlier, but in your case you'll probably want to know how to create private repositories provided by JAMK. After adding some of your account information confirm your email via link that you've received to your accounts' address and feel free to explore how GitHub works. In this case I've created a private repository called gigacorolla-toolchain for N4S project and used my main account to invite our Gigapossu user to that private repository. After our GitHub account has been set up and has a repository to work on, we are set to initiate our CircleCI account. In your case your organization will probably be JAMK-IT but otherwise the process should be somewhat similar.
-
-## Continuous Integration and Deployment
-
-![CircleCI GitHub integration](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-11-27%2013:57:23.png)
-
-![CircleCI GitHub authorization](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-11-27%2013:58:22.png)
-
-![CircleCI testing and deployment](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-11-27%2014:27:55.png)
-
-CircleCI is a tool used for Continuous Integration and Deployment. From the front page, click “Sign up free” and create an account. After that, “Add code from GitHub” and you should be provided with login screen or in case you're already logged in, you'll be asked to authorize CircleCI to use your GitHub account with listed permissions. At this point it's good to know that you'll have to have admin permissions to repository you're about to add to CircleCI. The next part depends on whether you've created a private repository for your account or your organization. In this case the repository has been created for our organization, N4SJAMK, so we choose that as an organization and because we only have privileges to gigacorolla-toolchain repository under this organization we select it for our repository. 
-
-After that click on “Build project” next to your chosen repository. Because in this case our repository was just about empty with no code to build, we received some warnings in the process. That issue will be fixed when we've got our code underway in GitHub, and this phase is not really relevant in case your GitHub repository doesn't have anything meaningful in it. After you've created your code and project to GitHub repository, the process of linking it to CircleCI is pretty straightforward. You just add your repository as a project and you're good to go. However, if you don't have tests for your code you may run into problems.
-
-## Feedback
-
-Choosing a user feedback system is a bit more complicated issue. We used UserVoice for quite a while to collect feedback from our Contriboard, and as integration with our issue listing was not possible from the start, we used Zapier to export our feedback tickets from UserVoice into GitHub issues. We were satisfied with UserVoice and it served us well. However, since then things have become a bit more complicated. UserVoice has changed its payment model drastically. When we used it they had free account option that was limited in some functionalities but didn't have any kind of trial period or something that was severely limiting our basic usage. Since then they have moved to radically different pricing methods. Now they have 14 day free trial and first pricing option starts from 499$ a month. So now we're in a situation where we'll have to find another free alternative that has the necessary integrations or implement those integrations manually with Zapier.
-
 ## Mockups
 
 ### NinjaMock
@@ -183,6 +159,29 @@ The process of creating our simple big red button is pretty straightforward here
 
 You'll likely get useful tips while creating your wireframe, so remember to access them, for there's a good chance they'll make your work easier. In Fluid UI you link objects, or widgets simply by clicking the widget and then “Link”. Then you'll have the option to choose where your widget of choice leads. Then preview your mockup to see if it works just as it should. As in NinjaMock, here you should also link your textboxes to next page to prevent them from being unclickable objects on your circle.
 
+## Managing the code
+
+![Join GitHub](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-11-27%2013:37:16.png)
+
+![Choose GitHub plan](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-11-27%2013:38:20.png)
+
+GitHub is a very important tool for managing your code and making it easily accessible to use in various environments. Create your account by clicking “sign up” and provide the account with your user information. In this case I'm using N4S project repositories that have been created earlier, but in your case you'll probably want to know how to create private repositories provided by JAMK. After adding some of your account information confirm your email via link that you've received to your accounts' address and feel free to explore how GitHub works. In this case I've created a private repository called gigacorolla-toolchain for N4S project and used my main account to invite our Gigapossu user to that private repository. After our GitHub account has been set up and has a repository to work on, we are set to initiate our CircleCI account. In your case your organization will probably be JAMK-IT but otherwise the process should be somewhat similar.
+
+## Continuous Integration and Deployment
+
+![CircleCI GitHub integration](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-11-27%2013:57:23.png)
+
+![CircleCI GitHub authorization](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-11-27%2013:58:22.png)
+
+![CircleCI testing and deployment](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-11-27%2014:27:55.png)
+
+CircleCI is a tool used for Continuous Integration and Deployment. From the front page, click “Sign up free” and create an account. After that, “Add code from GitHub” and you should be provided with login screen or in case you're already logged in, you'll be asked to authorize CircleCI to use your GitHub account with listed permissions. At this point it's good to know that you'll have to have admin permissions to repository you're about to add to CircleCI. If there's no valid reason against this, while you're at it, you might want to get yourself the owner permissions to repository, for you'll need them later. The next part depends on whether you've created a private repository for your account or your organization. In this case the repository has been created for our organization, N4SJAMK, so we choose that as an organization and because we only have privileges to gigacorolla-toolchain repository under this organization we select it for our repository. 
+
+After that click on “Build project” next to your chosen repository. Because in this case our repository was just about empty with no code to build, we received some warnings in the process. That issue will be fixed when we've got our code underway in GitHub, and this phase is not really relevant in case your GitHub repository doesn't have anything meaningful in it. After you've created your code and project to GitHub repository, the process of linking it to CircleCI is pretty straightforward. You just add your repository as a project and you're good to go. However, if you don't have tests for your code you may run into problems.
+
+At this point it is recommended to create Heroku account as displayed in the next chapter. After that, continue from the next section.
+
+After you've deployed your code to your GitHub repository, it is time to get our CircleCI and Heroku environments working together. To accomplish this and get the tests run appropriately, we made a dummy file with javascript for the test to pass and deployment to Heroku work. You can see our implementation in https://github.com/JAMK-IT/reference-product-line -repository. At this point please notice that you'll not be able to add repositories to your watchlist unless you are owner of the repository in question. Now, at this point we assume that you are the owner of the repository you're about to use with CircleCI for Heroku deployment, you have some code in your GitHub repository and you have CircleCI and Heroku accounts created. You'll also need some kind of simple test to pass deployment phase if you want your code to be deployed to Heroku. You can see the example from our repository stated earlier for our dummy test. If you've not yet created Heroku account feel free to do it now and then return to this part. Next up you'll be linking CircleCI and Heroku accounts so that CircleCI will be able to deploy your code to Heroku as a working app. From the main view, click the settings button next to your repository of choice and you'll end up in project settings. After that you're going to need Heroku API key from Heroku account. Below the dashboard you'll see your own account. Click from the arrow pointing downwards from the right side of your account name and then open “Manage account” menu. Scroll down until you find “API Key” and then click “Show API Key...”, enter your password and then copy-paste this key to your CircleCI. Just above it you'll see a guide to help you generate SSH keys. Use it and add your generated SSH keys to CircleCI profile at the same time. After that you're good to go.
 
 
 ## Platform for App Deployment
@@ -192,3 +191,7 @@ You'll likely get useful tips while creating your wireframe, so remember to acce
 ![Heroku account creation finished](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-11-27%2014:55:09.png)
 
 Heroku is our site of choice for building our app in working condition. This is basically where our application is deployed after being tested and compiled in CircleCI. To create your account click “Sign up for free” and once again, fill in the necessary information to get your account initiated. If you already have in mind what programming language you're about to use for your project then go ahead and select it from the menu, but Heroku also has couple of options in case you're not so sure. After filling out the account information you'll be asked to confirm your email account. After confirming your account you'll be prompted to set password to your account. Do so and log in.
+
+## Feedback
+
+Choosing a user feedback system is a bit more complicated issue. We used UserVoice for quite a while to collect feedback from our Contriboard, and as integration with our issue listing was not possible from the start, we used Zapier to export our feedback tickets from UserVoice into GitHub issues. We were satisfied with UserVoice and it served us well. However, since then things have become a bit more complicated. UserVoice has changed its payment model drastically. When we used it they had free account option that was limited in some functionalities but didn't have any kind of trial period or something that was severely limiting our basic usage. Since then they have moved to radically different pricing methods. Now they have 14 day free trial and first pricing option starts from 499$ a month. So now we're in a situation where we'll have to find another free alternative that has the necessary integrations or implement those integrations manually with Zapier.
