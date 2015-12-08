@@ -199,3 +199,15 @@ Heroku is our site of choice for building our app in working condition. This is 
 ## Feedback
 
 Choosing a user feedback system is a bit more complicated issue. We used UserVoice for quite a while to collect feedback from our Contriboard, and as integration with our issue listing was not possible from the start, we used Zapier to export our feedback tickets from UserVoice into GitHub issues. We were satisfied with UserVoice and it served us well. However, since then things have become a bit more complicated. UserVoice has changed its payment model drastically. When we used it they had free account option that was limited in some functionalities but didn't have any kind of trial period or something that was severely limiting our basic usage. Since then they have moved to radically different pricing methods. Now they have 14 day free trial and first pricing option starts from 499$ a month. So now we're in a situation where we'll have to find another free alternative that has the necessary integrations or implement those integrations manually with Zapier.
+
+![Doorbell.io front page](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-08%2012:07:00.png)
+
+![Doorbell.io application added](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-08%2013:38:02.png)
+
+![Doorbell.io feedback](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-08%2013:35:05.png)
+
+One simple option we tried was Doorbell.io, se we decided to add it to this guide. In all its simplicity, create an account, create a new application by pressing “+” -button next to your user account in the upper right corner of the site and name your application. Then you'll be given a piece of JavaScript code that you can add to your application that you want feedback from. The feedback you'll receive will be added to your Doorbell.io account. In our case the best option will be of course to add this piece of code to GitHub repository in our application, and then deploy it with CircleCI to Heroku. After that you can get feedback from your application.
+
+![Application deployed to Heroku with feedback](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-08%2013:19:21.png)
+
+And here we have our application deployed to Heroku with feedback feature!
