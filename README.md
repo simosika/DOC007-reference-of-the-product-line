@@ -212,4 +212,4 @@ One simple option we tried was Doorbell.io, se we decided to add it to this guid
 
 ![Application deployed to Heroku with feedback](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-08%2013:19:21.png)
 
-And here we have our application deployed to Heroku with feedback feature!
+And here we have our application deployed to Heroku with feedback feature! (http://focus-demo.herokuapp.com/)
