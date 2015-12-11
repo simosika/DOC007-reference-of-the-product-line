@@ -1,5 +1,9 @@
 # How to establish your own Focus production line
 
+## Introduction - aka. why so many tools?
+
+Software development consists of many phases. It is better to work efficiently as a team and design and plan your intentions well rather than jump straight to work. In our work this has been allowed by wide variety of tools and components. With this guide we introduce you to a barebones version of our environment. We sincerely hope that you will get some idea and motivation out of our researched and tried toolchain and in time learn to look for tools that complete your development environment.
+
 We start by creating necessary services to help us manage passwords and other project information. In this case I use gigapossu@gmail.com as example account to help you get through various phases of service creation.
 
 **Table of Contents**
