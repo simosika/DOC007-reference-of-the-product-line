@@ -4,6 +4,9 @@
 
 Software development consists of many phases. It is better to work efficiently as a team and design and plan your intentions well rather than jump straight to work. In our work this has been allowed by wide variety of tools and components. With this guide we introduce you to a barebones version of our environment. We sincerely hope that you will get some idea and motivation out of our researched and tried toolchain and in time learn to look for tools that complete your development environment.
 
+![Full Corolla toolchain](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-11%2010:38:04.png)
+Here's an image of our full-blown Corolla toolchain, Focus predecessor from some point in time. ![Reference 1](#R1)
+
 We start by creating necessary services to help us manage passwords and other project information. In this case I use gigapossu@gmail.com as example account to help you get through various phases of service creation.
 
 **Table of Contents**
@@ -19,6 +22,7 @@ We start by creating necessary services to help us manage passwords and other pr
 - [Continuous Integration and Deployment](#continuous-integration-and-deployment)
 - [Platform for App Deployment](#platform-for-app-deployment)
 - [Feedback](#feedback)
+- [References and Links](#references-and-links)
 
 ## Password management
 
@@ -217,3 +221,8 @@ One simple option we tried was Doorbell.io, se we decided to add it to this guid
 ![Application deployed to Heroku with feedback](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-08%2013:19:21.png)
 
 And here we have our application deployed to Heroku with feedback feature! (http://focus-demo.herokuapp.com/)
+
+## References and Links
+
+###R1 Sutinen, H. 2014. Rapid design using web based UI design tools : Case: Contriboard
+http://urn.fi/URN:NBN:fi:amk-2014121219576
