@@ -1,6 +1,23 @@
 # How to establish your own Focus production line
 
-## Introduction - aka. why so many tools?
+**Table of Contents**
+- [Introduction](#introduction)
+- [Password management](#password-management)
+- [Communication channel](#communication-channel)
+- [Work organization](#work-organization)
+- [Documentation tools](#documentation-tools)
+- [Tool integrations](#tool-integrations)
+- [Mockups](#mockups)  
+  -[NinjaMock](#ninjamock)  
+  -[Fluid UI](#fluid-ui)
+- [Managing the code](#managing-the-code)
+- [Continuous Integration and Deployment](#continuous-integration-and-deployment)
+- [Platform for App Deployment](#platform-for-app-deployment)
+- [Feedback](#feedback)
+- [References and Links](#references-and-links)
+
+## Introduction
+(aka. Why so many tools?)
 
 Software development consists of many phases. It is better to work efficiently as a team and design and plan your intentions well rather than jump straight to work. In our work this has been allowed by wide variety of tools and components. With this guide we introduce you to a barebones version of our environment. Our tools and methods of working are based on the principles of Dev Ops and continuous integration, latter of which well described in image below as a concept. We sincerely hope that you will get some idea and motivation out of our researched and tried toolchain and in time learn to look for tools that complete your development environment.
 
@@ -15,20 +32,7 @@ And here's the Focus toolchain, the minimal version of previous Corolla that you
 
 We start by creating necessary services to help us manage passwords and other project information. In this case I use gigapossu@gmail.com as example account to help you get through various phases of service creation.
 
-**Table of Contents**
-- [Password management](#password-management)
-- [Communication channel](#communication-channel)
-- [Work organization](#work-organization)
-- [Documentation tools](#documentation-tools)
-- [Tool integrations](#tool-integrations)
-- [Mockups](#mockups)  
-  -[NinjaMock](#ninjamock)  
-  -[Fluid UI](#fluid-ui)
-- [Managing the code](#managing-the-code)
-- [Continuous Integration and Deployment](#continuous-integration-and-deployment)
-- [Platform for App Deployment](#platform-for-app-deployment)
-- [Feedback](#feedback)
-- [References and Links](#references-and-links)
+
 
 ## Password management
 
