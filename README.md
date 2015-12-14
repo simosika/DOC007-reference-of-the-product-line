@@ -16,7 +16,7 @@ We start by creating necessary services to help us manage passwords and other pr
 - [Password management](#password-management)
 - [Communication channel](#communication-channel)
 - [Work organization](#work-organization)
-- [Diagrams](#diagrams)
+- [Documentation tools](#documentation-tools)
 - [Tool integrations](#tool-integrations)
 - [Mockups](#mockups)  
   -[NinjaMock](#ninjamock)  
@@ -101,7 +101,7 @@ Confirm your account via email message and start getting to know Trello. Let's h
 
 Adding new users to your board can be done via the menu in right corner of your board. Public boards can be seen by everyone but edited only by members of the board. Private boards are only seen and edited by members.
 
-## Diagrams
+## Documentation tools
 
 Lucidchart can be used for making diagrams and you can think of it as a free replacement to Microsoft Visio. There are lots of free alternatives to programs like this, but compared to Dia, for example, Lucidchart has a benefit that it's online-based and this makes sharing your diagrams with your team and other parties a lot easier.
 
