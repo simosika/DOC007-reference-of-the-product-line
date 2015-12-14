@@ -10,6 +10,9 @@ This is a figure describing Agile DevOps -like process cycle. Continuous integra
 ![Full Corolla toolchain](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-11%2010:38:04.png)
 Here's an image of our full-blown Corolla toolchain, Focus predecessor from some point in time. [Reference 1](#R1)
 
+![Focus toolchain](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Focus_toolchain.png)
+And here's the Focus toolchain, the minimal version of previous Corolla that you'll be working with in this tutorial. Some services have been replaced and some are not necessary in this context, but the basic idea is the same. Creating a product from start to finish containing all the processes from DevOps.
+
 We start by creating necessary services to help us manage passwords and other project information. In this case I use gigapossu@gmail.com as example account to help you get through various phases of service creation.
 
 **Table of Contents**
