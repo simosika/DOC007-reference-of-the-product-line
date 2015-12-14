@@ -4,7 +4,7 @@
 
 Software development consists of many phases. It is better to work efficiently as a team and design and plan your intentions well rather than jump straight to work. In our work this has been allowed by wide variety of tools and components. With this guide we introduce you to a barebones version of our environment. Our tools and methods of working are based on the principles of Dev Ops and continuous integration, latter of which well described in image below as a concept. We sincerely hope that you will get some idea and motivation out of our researched and tried toolchain and in time learn to look for tools that complete your development environment.
 
-![Continuous integration process](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-14%2010:26:38.png)
+![Continuous integration process](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-14%2010:26:38.png)  
 This is a figure describing Agile DevOps -like process cycle. Continuous integration can be seen as one part of the whole process. [Reference 1](#R1)
 
 ![Full Corolla toolchain](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-11%2010:38:04.png)
