@@ -16,6 +16,7 @@
 - [Platform for App Deployment](#platform-for-app-deployment)
 - [Feedback](#feedback)
 - [References and Links](#references-and-links)
+- [Questions & Answers](#questions-and-answers)
 
 ## Introduction
 (aka. Why so many tools?)
@@ -274,5 +275,7 @@ https://en.wikipedia.org/wiki/Continuous_integration</a>
 
 <a name="R7">Fowler, M. 2006. Continuous integration.  
 http://martinfowler.com/articles/continuousIntegration.html</a>
+
+## Questions and Answers
 
 
