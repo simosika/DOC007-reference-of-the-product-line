@@ -254,7 +254,7 @@ And here we have our application deployed to Heroku with feedback feature! (http
 
 ## References and Links
 
-<a name="R1">Sutinen, H. 2014. Rapid design using web based UI design tools : Case: Contriboard
+<a name="R1">Sutinen, H. 2014. Rapid design using web based UI design tools : Case: Contriboard  
 http://urn.fi/URN:NBN:fi:amk-2014121219576</a>
 
 <a name="R2">Several writers, 2015. Work Packages - Digile N4S.  
