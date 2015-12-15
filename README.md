@@ -2,6 +2,7 @@
 
 **Table of Contents**
 - [Introduction](#introduction)
+- [Initialization](#commence-toolchain-creation)
 - [Password management](#password-management)
 - [Communication channel](#communication-channel)
 - [Work organization](#work-organization)
@@ -27,9 +28,24 @@ This is a figure describing Agile DevOps -like process cycle. Continuous integra
 ![Focus toolchain](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Focus_toolchain.png)
 And here's the Focus toolchain, the minimal version of previous toolchain (Corolla) that you'll be working with in this tutorial. Some services have been replaced and some are not necessary in this context, but the basic idea is the same. Creating a product from start to finish containing all the processes from DevOps. For more information about our previous toolchain, see ![Corolla reference production environment](https://github.com/N4SJAMK/teamboard-meta/wiki/about-production-environment)
 
-We start by creating necessary services to help us manage passwords and other project information. In this case I use gigapossu@gmail.com as example account to help you get through various phases of service creation.
+## Commence toolchain creation
 
+We start by creating necessary services to help us manage passwords and other project information. In this case I use gigapossu@gmail.com as example account to help you get through various phases of service creation. In case you have several accounts you might be able to use in the process, it is advisable to either use one of them for all services or distribute management of certain services to different people for efficiency. But the easiest and most safe method will probably be using the same account for all services, but in that case remember to take a good use of password management in case the account owner is absent at some point. If there's a case where you'll have to activate some account via email and the account owner is unreachable, one viable option would be to create a dedicated account for your project. TL;DR: Create a dedicated account for your project, for example Gmail account, unless you have a good reason to use existing account.
 
+Now, into the toolchain process itself. There are several ways to do this, and here we'll provide two valid options:
+- Full focus toolchain
+- Coding-based toolchain
+
+The first option means that you'll go through all the tools mentioned in the table of contents. The latter means that you'll use your own means of communication, design etc. and just use the tools necessary to deploy and manage code from our toolchain. That basically means using the following, modified table of contents:
+
+**Table of Contents Ants in the Pants Edition**
+- [Password management](#password-management)
+- [Work organization](#work-organization)
+- [Managing the code](#managing-the-code)
+- [Continuous Integration and Deployment](#continuous-integration-and-deployment)
+- [Platform for App Deployment](#platform-for-app-deployment)
+- [Feedback](#feedback)
+- [References and Links](#references-and-links)
 
 ## Password management
 
