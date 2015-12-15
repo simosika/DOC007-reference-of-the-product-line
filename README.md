@@ -254,7 +254,7 @@ And here we have our application deployed to Heroku with feedback feature! (http
 
 ## References and Links
 
-<a name="R1">Sutinen, H. 2014. Rapid design using web based UI design tools : Case: Contriboard  
+<a name="R1">Sutinen, H. 2014. Rapid design using web based UI design tools : Case: Contriboard.    
 http://urn.fi/URN:NBN:fi:amk-2014121219576</a>
 
 <a name="R2">Several writers, 2015. Work Packages - Digile N4S.  
@@ -263,13 +263,16 @@ http://www.n4s.fi/en/work-packages/</a>
 <a name="R3">Several writers, 2015. DevOps - Wikipedia, the free encyclopedia.  
 https://en.wikipedia.org/wiki/DevOps</a>
 
-<a name="R4">Several writers, 2015. What is DevOps? | the agile admin  
+<a name="R4">Several writers, 2015. What is DevOps? | the agile admin.  
 http://theagileadmin.com/what-is-devops/</a>
 
-<a name="R5">Several writers, 2015. Continuous delivery - Wikipedia, the free encyclopedia.  
+<a name="R5">Several writers, 2015. Continuous delivery - Wikipedia, the free encyclopedia.     
 https://en.wikipedia.org/wiki/Continuous_delivery</a>
 
-<a name="R6">Several writers, 2015. Continuous integration - Wikipedia, the free encyclopedia.  
+<a name="R6">Several writers, 2015. Continuous integration - Wikipedia, the free encyclopedia.      
 https://en.wikipedia.org/wiki/Continuous_integration</a>
+
+<a name="R7">Fowler, M. 2006. Continuous integration.  
+http://martinfowler.com/articles/continuousIntegration.html</a>
 
 
