@@ -25,7 +25,7 @@ Software development consists of many phases. It is better to work efficiently a
 This is a figure describing Agile DevOps -like process cycle. Continuous integration can be seen as one part of the whole process. [Reference 1](#R1)
 
 ![Focus toolchain](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Focus_toolchain.png)
-And here's the Focus toolchain, the minimal version of previous toolchain (Corolla) that you'll be working with in this tutorial. Some services have been replaced and some are not necessary in this context, but the basic idea is the same. Creating a product from start to finish containing all the processes from DevOps.
+And here's the Focus toolchain, the minimal version of previous toolchain (Corolla) that you'll be working with in this tutorial. Some services have been replaced and some are not necessary in this context, but the basic idea is the same. Creating a product from start to finish containing all the processes from DevOps. For more information about our previous toolchain, see ![Corolla reference production environment](https://github.com/N4SJAMK/teamboard-meta/wiki/about-production-environment)
 
 We start by creating necessary services to help us manage passwords and other project information. In this case I use gigapossu@gmail.com as example account to help you get through various phases of service creation.
 
