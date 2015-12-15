@@ -22,11 +22,18 @@
 
 Software development consists of many phases. It is better to work efficiently as a team and design and plan your intentions well rather than jump straight to work. In our work this has been allowed by wide variety of tools and components. With this guide we introduce you to a barebones version of our environment. Our tools and methods of working are based on the principles of Dev Ops and continuous integration, latter of which well described in image below as a concept. We sincerely hope that you will get some idea and motivation out of our researched and tried toolchain and in time learn to look for tools that complete your development environment.
 
+To understand the basic idea behind our toolchain and environment, have a look at the following concepts:
+- DevOps
+- Continuous Delivery
+- Continuous Integration
+
+Some material on these subjects is available in our [references and links](#references-and-links)
+
 ![Continuous integration process](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Screenshot%20from%202015-12-14%2010:26:38.png)  
 This is a figure describing Agile DevOps -like process cycle. Continuous integration can be seen as one part of the whole process. [Reference 1](#R1)
 
 ![Focus toolchain](https://github.com/JAMK-IT/reference-product-line/blob/master/images/Focus_toolchain.png)
-And here's the Focus toolchain, the minimal version of previous toolchain (Corolla) that you'll be working with in this tutorial. Some services have been replaced and some are not necessary in this context, but the basic idea is the same. Creating a product from start to finish containing all the processes from DevOps. For more information about our previous toolchain, see ![Corolla reference production environment](https://github.com/N4SJAMK/teamboard-meta/wiki/about-production-environment)
+And here's the Focus toolchain, the minimal version of previous toolchain (Corolla) that you'll be working with in this tutorial. Some services have been replaced and some are not necessary in this context, but the basic idea is the same. Creating a product from start to finish containing all the processes from DevOps. For more information about our previous toolchain, see [Corolla reference production environment](https://github.com/N4SJAMK/teamboard-meta/wiki/about-production-environment)
 
 ## Commence toolchain creation
 
@@ -249,3 +256,20 @@ And here we have our application deployed to Heroku with feedback feature! (http
 
 <a name="R1">Sutinen, H. 2014. Rapid design using web based UI design tools : Case: Contriboard
 http://urn.fi/URN:NBN:fi:amk-2014121219576</a>
+
+<a name="R2">Several writers, 2015. Work Packages - Digile N4S.
+http://www.n4s.fi/en/work-packages/</a>
+
+<a name="R3">Several writers, 2015. DevOps - Wikipedia, the free encyclopedia.
+https://en.wikipedia.org/wiki/DevOps</a>
+
+<a name="R4">Several writers, 2015. What is DevOps? | the agile admin
+http://theagileadmin.com/what-is-devops/</a>
+
+<a name="R5">Several writers, 2015. Continuous delivery - Wikipedia, the free encyclopedia.
+https://en.wikipedia.org/wiki/Continuous_delivery</a>
+
+<a name="R6">Several writers, 2015. Continuous integration - Wikipedia, the free encyclopedia.
+https://en.wikipedia.org/wiki/Continuous_integration</a>
+
+
