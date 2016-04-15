@@ -13,3 +13,5 @@ Student teams are using this product line for software projects. You will find m
 TBD
 
 More info: marko.rintamaki@jamk.fi
+
+[target_url=https://github.com/JAMK-IT/reference-product-line/wiki]
