@@ -1,5 +1,7 @@
 ##Reference Product Line
 
+![](https://github.com/JAMK-IT/reference-product-line/raw/master/images/Focus_toolchain.png)
+
 ###Focus-product line - Spring 2016
 
 Reference product line is combination of several freemium services which can be used for development of modern web services. 
