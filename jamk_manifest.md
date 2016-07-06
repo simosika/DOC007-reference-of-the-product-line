@@ -14,4 +14,4 @@ TBD
 
 More info: marko.rintamaki@jamk.fi
 
-[target_url=https://github.com/JAMK-IT/reference-product-line/wiki]
+[target_url=https://github.com/JAMK-IT/DOC007-reference-of-the-product-line/wiki]
