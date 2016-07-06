@@ -1,4 +1,6 @@
-# How to establish your own Focus production line
+# How to establish your own software production line
+
+VERSION: FOCUS
 
 **Table of Contents**
 - [Introduction](#introduction)
