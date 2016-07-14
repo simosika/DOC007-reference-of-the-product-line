@@ -8,5 +8,4 @@ In Focus setup guide you will see how all service in the cloud  are used to run 
 You will find setup guides in wiki pages at: 
 
 
-* 
-* [Setup Guide for Focus](https://github.com/JAMK-IT/DOC007-reference-of-the-product-line/blob/master/Setting-up-focus.md)
+* [Setup Guide](https://github.com/JAMK-IT/DOC007-reference-of-the-product-line/wiki/info-product-line-setup)
