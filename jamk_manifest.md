@@ -14,4 +14,4 @@ Student teams are using this product line for software projects. You will find m
 
 More info: marko.rintamaki@jamk.fi
 
-[target_url=https://github.com/JAMK-IT/DOC007-reference-of-the-product-line/wiki]
+[target_url=http://jamk-it.github.io/DOC007-reference-of-the-product-line/]
