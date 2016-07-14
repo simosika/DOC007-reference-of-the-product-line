@@ -10,7 +10,7 @@ Student teams are using this product line for software projects. You will find m
 
 ###Goal/target
 
-TBD
+
 
 More info: marko.rintamaki@jamk.fi
 
