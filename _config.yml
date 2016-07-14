@@ -26,12 +26,12 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: Setup?
+  - title: Setup guide
     url: https://github.com/JAMK-IT/DOC007-reference-of-the-product-line/wiki/info-product-line-setup
     icon: fa fa-github fa-fw
-  - title: WIKI
+  - title: Project WIKI
     url: https://github.com/JAMK-IT/DOC007-reference-of-the-product-line/wiki
     icon: fa fa-github fa-fw
-  - title: Service Example?
+  - title: Code for service example 
     url: https://github.com/JAMK-IT/DOC007-reference-of-the-product-line/
     icon: fa fa-file fa-fw
